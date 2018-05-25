@@ -10,9 +10,15 @@ h1 {
   
 }
 
+.link {
+    display: block;
+    position: center;
+    font-family: 'Courier New', Courier, monospace;
+}
+
 textarea {
     background-color: white;
-    height: 200px;
+    height: 180px;
     width: 400px;
     display: block;
     margin-left: auto;
