@@ -1,1 +1,46 @@
 /* Acá va tu código */
+* {
+    background-color: lavender;
+}
+
+h1 {
+  text-align: center; 
+  font-family: 'Courier New', Courier, monospace;
+  font-size: 40px; 
+  
+}
+
+textarea {
+    background-color: white;
+    height: 200px;
+    width: 400px;
+    display: block;
+    margin-left: auto;
+    margin-right: auto;
+    resize: none;
+    font-size: 14px;
+
+}
+
+.block {
+    margin-top: 50px;
+    margin-bottom: 50px;
+    display: inline-block;
+    position: center;
+    background-color: ghostwhite;
+    font-size: 16px;
+    border-radius: 8px;
+    
+
+
+}
+
+.button {
+    float: left;
+    border: 1px solid green;
+}
+
+div {
+    text-align:center;
+    margin:auto;
+}
