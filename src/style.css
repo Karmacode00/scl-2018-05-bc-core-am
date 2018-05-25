@@ -18,26 +18,43 @@ textarea {
     margin-left: auto;
     margin-right: auto;
     resize: none;
-    font-size: 14px;
+    font-size: 20px;
+    font-family: 'Courier New', Courier, monospace;
 
 }
 
 .block {
-    margin-top: 50px;
-    margin-bottom: 50px;
+    margin-top: 5px;
+    margin-bottom: 10px;
     display: inline-block;
     position: center;
     background-color: ghostwhite;
     font-size: 16px;
+    font: bold;
     border-radius: 8px;
-    
-
-
+    font-family: 'Courier New', Courier, monospace;
 }
 
-.button {
-    float: left;
-    border: 1px solid green;
+.clear {
+    margin-top: 5px;
+    margin-bottom: 10px;
+    display: inline-block;
+    position: center;
+    background-color: ghostwhite;
+    font-size: 16px;
+    font: bold;
+    border-radius: 8px;
+    font-family: 'Courier New', Courier, monospace;
+}
+
+.position {
+    margin-top: 5px;
+    margin-bottom: 5px;
+    display: block;
+    position: center;
+    font-size: 16px;
+    font: bold;
+    font-family: 'Courier New', Courier, monospace;
 }
 
 div {

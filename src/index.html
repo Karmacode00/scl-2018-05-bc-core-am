@@ -6,15 +6,19 @@
   <link rel="stylesheet" href="style.css" />
 </head>
 <body>
-  <h1>Caesar Cipher</h1>
-
+  <header>
+  <h1>Cifrado César</h1>
+  </header>
 <section>
 
   <div><textarea placeholder="Ingresa tu texto"></textarea></div>
+  <div class="position"><p>Número de posiciones a desplazar <input type="tel" size="2" maxlength="2" name="caracteres"></p> 
+  </div>
   <div>
       <button  id="button-encrypt" type="button" value="cifrar" onclick="check()" class="block">Cifrar</button>
-      <button  class="block">Descifrar</button>
+      <button  id="button-decrypt" type="button" value="descifrar" onclick="check()"class="block">Descifrar</button>
   </div>
+  <div><button  id="button-clear" type="button" value="limpiar" onclick="check()"class="clear">Limpiar</button></div>
   </section>
   <div><textarea class = textbox disabled="disabled"></textarea></div>
 
