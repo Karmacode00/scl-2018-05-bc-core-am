@@ -22,6 +22,7 @@ window.onload = () => {
     
     btn3.addEventListener("click", () => {
       document.getElementById("text").value = "";
+      document.getElementById("output").value = "";
        
     });
 
