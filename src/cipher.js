@@ -1,77 +1,51 @@
 window.cipher = {
    encode: (num,str) => {
-    /* Acá va tu código */
-      num = parseInt(num);
-      let result = "";
-      
+  //Comienza función encode
+    num = parseInt(num); 
+    let result = "";
+      //Se moverá de a una posición a lo largo de lapalabra entregada
       for (var i = 0; i < str.length; i++){
         let char = str[i];
-        let charCode = char.charCodeAt(i);
-       
-    
-        
-        if ( char.match(/[A-Z]/i) ){ // Si es letra 
-        
+        //let charCode = char.charCodeAt(i);
+        if ( char.match(/[A-Z]/i) ){ // Si lo que ingresamos es letra 
           let charCode = str.charCodeAt(i);
-    
-          // Uppercase 
-          if ((charCode >= 65) && (charCode <= 90)) {
+          //AsCii
+          // Mayúsculas 
+          if ((charCode >= 64) && (charCode <= 91)) {
             char = String.fromCharCode(((charCode - 65 + num) % 26) + 65);
           }
-          // Lowercase 
-          else if ((charCode >= 97) && (charCode <= 122)) {
-            char = String.fromCharCode(((charCode - 97 + num) % 26) + 97);
-          }
-          
+          // Minusculas 
+          else if ((charCode >= 96) && (charCode <= 123)) {
+            char = String.fromCharCode(((charCode - 96 + num) % 26) + 96);
+          }        
         }
-    
          result += char;
-
       }
-
-      return result
-    
-     
-
-    }
-
-  }
-
-  window.decipher = {
-  decode: (num,str) => {
-
+      return result;
+    },
+  
+   decode: (num2,str2) => {
+  //Comienza función decode
     let result = "";
-    num = parseInt(num);
+    num2 = parseInt(num2);
 
-    for (var i = 0; i < str.length; i++){
-      let char = str[i];
-      let charCode = char.charCodeAt(i);
-     
-  
-      
-      if ( char.match(/[A-Z]/i) ){ // Si es letra 
-      
-        let charCode = str.charCodeAt(i);
-  
-        // Uppercase 
-        if ((charCode >= 65) && (charCode <= 90)) {
-          char = String.fromCharCode(((charCode - 65 - num) % 26) + 65);
-        }
-        // Lowercase 
-        else if ((charCode >= 97) && (charCode <= 122)) {
-          char = String.fromCharCode(((charCode - 97 - num) % 26) + 97);
-        }
-        
-      }
-  
-       result += char;
-
+      for (var i = 0; i < str2.length; i++){
+        let char2 = str2[i];
+        //let charCode = char.charCodeAt(i);
+        if ( char2.match(/[A-Z]/i) ){ // Si es letra 
+         let charCode = str2.charCodeAt(i);
+         //Ascii
+         // Mayusculas 
+          if ((charCode >= 65) && (charCode <= 91)) {
+            char2 = String.fromCharCode(((charCode - 64 - num2) % 26 + 26) + 64);
+          }
+          // Minusculas 
+          else if ((charCode >= 97) && (charCode <= 122)) {
+            char2 = String.fromCharCode(((charCode - 97 - num2) % 26 + 26) + 97);
+          }  
+         } 
+         result += char2;
+       }
+       return result
     }
-
-    return result
-  
-
-
-
-  }
-  }
+  };

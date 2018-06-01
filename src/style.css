@@ -1,69 +1,67 @@
 /* Acá va tu código */
-* {
-    background-color: lavender;
+body{
+  background-image: url('https://vignette.wikia.nocookie.net/assassinscreed/images/8/8b/Old_paper.jpg/revision/latest/scale-to-width-down/1280?cb=20120728131604');
 }
 
 h1 {
   text-align: center; 
-  font-family: 'Courier New', Courier, monospace;
-  font-size: 40px; 
-  
+  font-family: 'Alegreya', serif;
+  font-size: 60px; 
 }
 
 .link {
-    display: block;
-    position: center;
-    font-family: 'Courier New', Courier, monospace;
+  display: block;
+  position: center;
+  font-family: 'Catamaran', sans-serif;
 }
 
 textarea {
-    background-color: white;
-    height: 180px;
-    width: 400px;
-    display: block;
-    margin-left: auto;
-    margin-right: auto;
-    resize: none;
-    font-size: 20px;
-    font-family: 'Courier New', Courier, monospace;
-
+  background-color: white;
+  height: 180px;
+  width: 400px;
+  display: block;
+  margin-left: auto;
+  margin-right: auto;
+  resize: none;
+  font-size: 16px;
+  font-family: 'Catamaran', sans-serif;
 }
 
 .block {
-    margin-top: 5px;
-    margin-bottom: 10px;
-    display: inline-block;
-    position: center;
-    background-color: ghostwhite;
-    font-size: 16px;
-    font: bold;
-    border-radius: 8px;
-    font-family: 'Courier New', Courier, monospace;
+  margin-top: 5px;
+  margin-bottom: 10px;
+  display: inline-block;
+  position: center;
+  background-color: solid ghostwhite;
+  font-size: 16px;
+  font: bold;
+  border-radius: 8px;
+  font-family: 'Catamaran', sans-serif;
 }
 
 .clear {
-    margin-top: 5px;
-    margin-bottom: 10px;
-    display: inline-block;
-    position: center;
-    background-color: ghostwhite;
-    font-size: 16px;
-    font: bold;
-    border-radius: 8px;
-    font-family: 'Courier New', Courier, monospace;
+  margin-top: 5px;
+  margin-bottom: 10px;
+  display: inline-block;
+  position: center;
+  background-color: ghostwhite;
+  font-size: 16px;
+  font: bold;
+  border-radius: 8px;
+  font-family: 'Catamaran', sans-serif;
 }
 
 .position {
-    margin-top: 5px;
-    margin-bottom: 5px;
-    display: block;
-    position: center;
-    font-size: 16px;
-    font: bold;
-    font-family: 'Courier New', Courier, monospace;
+  margin-top: 5px;
+  margin-bottom: 5px;
+  display: block;
+  position: center;
+  font-size: 16px;
+  font: bold;
+  font-family: 'Catamaran', sans-serif;
 }
 
 div {
-    text-align:center;
-    margin:auto;
+  text-align:center;
+  margin:auto;
 }
