@@ -11,7 +11,7 @@ El emperador Julio César lo usaba para enviar órdenes a sus generales en los
 campos de batalla, es una de las técnicas más simples y más usadas para cifrar
 un mensaje.
 
-![http://aircampgames.com/wp-content/uploads/2017/04/caesar_02.png]
+![Cifrado](http://aircampgames.com/wp-content/uploads/2017/04/caesar_02.png)
 
 ## ¿Para qué me puede servir?
 
