@@ -1,6 +1,6 @@
 /* Acá va tu código */
 body{
-  background-image: url('https://vignette.wikia.nocookie.net/assassinscreed/images/8/8b/Old_paper.jpg/revision/latest/scale-to-width-down/1280?cb=20120728131604');
+  background-image: url('https://motionarray.imgix.net/preview-332678S6dtS1Gpn_0015.jpg?w=750&q=60&fit=max&auto=format');
 }
 
 h1 {
@@ -44,7 +44,7 @@ textarea {
   margin-bottom: 10px;
   display: inline-block;
   position: center;
-  background-color: ghostwhite;
+  background-color: solid ghostwhite;
   font-size: 16px;
   font: bold;
   border-radius: 8px;
