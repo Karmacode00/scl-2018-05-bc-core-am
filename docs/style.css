@@ -1,0 +1,67 @@
+/* Acá va tu código */
+body{
+  background-image: url('https://motionarray.imgix.net/preview-332678S6dtS1Gpn_0015.jpg?w=750&q=60&fit=max&auto=format');
+}
+
+h1 {
+  text-align: center; 
+  font-family: 'Alegreya', serif;
+  font-size: 60px; 
+}
+
+.link {
+  display: block;
+  position: center;
+  font-family: 'Catamaran', sans-serif;
+}
+
+textarea {
+  background-color: white;
+  height: 180px;
+  width: 400px;
+  display: block;
+  margin-left: auto;
+  margin-right: auto;
+  resize: none;
+  font-size: 16px;
+  font-family: 'Catamaran', sans-serif;
+}
+
+.block {
+  margin-top: 5px;
+  margin-bottom: 10px;
+  display: inline-block;
+  position: center;
+  background-color: solid ghostwhite;
+  font-size: 16px;
+  font: bold;
+  border-radius: 8px;
+  font-family: 'Catamaran', sans-serif;
+}
+
+.clear {
+  margin-top: 5px;
+  margin-bottom: 10px;
+  display: inline-block;
+  position: center;
+  background-color: solid ghostwhite;
+  font-size: 16px;
+  font: bold;
+  border-radius: 8px;
+  font-family: 'Catamaran', sans-serif;
+}
+
+.position {
+  margin-top: 5px;
+  margin-bottom: 5px;
+  display: block;
+  position: center;
+  font-size: 16px;
+  font: bold;
+  font-family: 'Catamaran', sans-serif;
+}
+
+div {
+  text-align:center;
+  margin:auto;
+}

@@ -1,0 +1,36 @@
+<!DOCTYPE html>
+<html>
+<head>
+  <meta charset="utf-8">
+  <title>Cifrado César</title>
+  <link rel="stylesheet" href="style.css" />
+  <link href="https://fonts.googleapis.com/css?family=Alegreya:700i|Catamaran" rel="stylesheet">
+</head>
+<body>
+  <header>
+    <h1>Cifrado César</h1>
+    <div class="link"><p><a href="https://es.wikipedia.org/wiki/Cifrado_C%C3%A9sar" target="_blank">¿Qué es el Cifrado César?</a></p></div>
+  </header>
+  <section> 
+   <div>
+     <textarea id="text" maxlength="220" placeholder="Ingresa tu texto"></textarea>
+    </div>
+   <div class="position"><p>Número de posiciones a desplazar <input id="offset" type="tel" size="2" maxlength="2" name="caracteres"></p> 
+   </div>
+  <div>
+    <button  id="button-encrypt" type="button" value="cifrar"  class="block">Cifrar</button>
+    <button  id="button-decrypt" type="button" value="descifrar"  class="block">Descifrar</button>
+  </div>
+  <div>
+    <button  id="button-clear" type="button" value="limpiar" class="clear">Limpiar</button>
+  </div>
+  <div>
+    <textarea id="output" placeholder="Resultado" class="textbox" disabled="disabled"></textarea>
+  </div>
+
+   <div id="root"></div>
+  </section>
+  <script src="cipher.js"></script>
+  <script src="index.js"></script>
+</body>
+</html>
