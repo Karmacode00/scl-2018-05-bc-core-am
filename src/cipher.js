@@ -16,7 +16,7 @@ window.cipher = {
           }
           // Minusculas 
           else if ((charCode >= 96) && (charCode <= 123)) {
-            char = String.fromCharCode(((charCode - 96 + num) % 26) + 96);
+            char = String.fromCharCode(((charCode - 97 + num) % 26) + 97);
           }        
         }
          result += char;
@@ -41,7 +41,7 @@ window.cipher = {
           }
           // Minusculas 
           else if ((charCode >= 97) && (charCode <= 122)) {
-            char2 = String.fromCharCode(((charCode - 97 - num2) % 26 + 26) + 97);
+            char2 = String.fromCharCode(((charCode - 96 - num2) % 26 + 26) + 96);
           }  
          } 
          result += char2;
