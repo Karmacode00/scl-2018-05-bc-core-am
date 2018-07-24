@@ -49,3 +49,14 @@ window.cipher = {
     return result;
   }
 };
+
+/* Offset
+createCipherWithOffset: (num) => ({
+  // Nuevo método que recibe a través de un input el string que a su vez llama al método encode pasándole ambos parámetros ya obtenidos (str y offset), retornando finalmente el resultado del comportamiento del método encode 
+  
+  encode: (str) => cipher.encode(str, num),
+  // Nuevo método que recibe a través de un input el string que a su vez llama al método decode pasándole ambos parámetros ya obtenidos (str y offset), retornando finalmente el resultado del comportamiento del método decode 
+  decode: (str2) => cipher.decode(str2, num2)
+});
+
+*/
