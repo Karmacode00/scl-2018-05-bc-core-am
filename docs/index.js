@@ -4,6 +4,8 @@ window.onload = () => {
   const btn1 = document.getElementById('button-encrypt');
   const btn2 = document.getElementById('button-decrypt');
   const btn3 = document.getElementById('button-clear');
+  const btn4 = document.getElementById('btn-encodeWithOffset');
+  const btn5 = document.getElementById('btn-decodeWithOffset');
   // Evento click texto a encode
   btn1.addEventListener('click', () => {
     let str = document.getElementById('text').value;
@@ -18,6 +20,20 @@ window.onload = () => {
     const result = window.cipher.decode(num2, str2);
     document.getElementById('output').value = result;
   });
+  // Evento click a encode offset
+  btn4.addEventListener('click', () => {
+    let str3 = document.getElementById('text').value;
+    let num3 = '6';
+    const result = window.cipher.offsetEncode(num3, str3);
+    document.getElementById('output').value = result;
+  });
+  // Evento click a decode offset
+  btn5.addEventListener('click', () => {
+    let str4 = document.getElementById('text').value;
+    let num4 = '6';
+    const result = window.cipher.offsetDecode(num4, str4);
+    document.getElementById('output').value = result;
+  });
   // Evento click limpiar
   btn3.addEventListener('click', () => {
     document.getElementById('text').value = '';
@@ -25,20 +41,3 @@ window.onload = () => {
   });
 };
 
-/* Evento click para el botón Encode with offset 3
-btnEncodeWithOffset.addEventListener('click', (event) => {
-  // preventDefault() para detener una acción por defecto, en este caso la del botón dentro de un form
-  event.preventDefault();
-  // Se pasa por parámetro el string que el usuario ingresó y un offset arbitrariamente, además escribe el resultado del método decode en el nodo html indicado
-  
-  result.innerHTML = cipher.createCipherWithOffset(3).encode(inputMessageWithOffset.value);
-});
-
-// Evento click para el botón Decode with offset 3
-btnDecodeWithOffset.addEventListener('click', (event) => {
-  // preventDefault() para detener una acción por defecto, en este caso la del botón dentro de un form
-  event.preventDefault();
-  // Se pasa por parámetro el string que el usuario ingresó y un offset arbitrariamente, además escribe el resultado del método decode en el nodo html indicado
-  result.innerHTML = cipher.createCipherWithOffset(3).decode(inputMessageWithOffset.value);
-});
-*/
